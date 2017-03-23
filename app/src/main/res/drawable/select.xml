@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:state_pressed="true"
+              android:drawable="@drawable/up_level_pressed" /> <!-- pressed 按下去-->
+        <item android:state_focused="true"
+              android:drawable="@drawable/ic_document_filetype" /> <!-- focused 焦点停留-->
+        <item android:drawable="@drawable/up_level" /> <!-- default正常默认 -->
+</selector>
